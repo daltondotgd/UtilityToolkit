@@ -1,0 +1,11 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.analysis.extraPaths": [
+        "../../../../Intermediate/PythonStub/"
+    ],
+    "python.autoComplete.extraPaths": [
+       "../../../../Intermediate/PythonStub/"
+    ],
+}
