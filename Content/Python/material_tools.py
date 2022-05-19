@@ -89,7 +89,7 @@ actions = {
         SetSamplerType(unreal.MaterialSamplerType.SAMPLERTYPE_MASKS)
     ],
     'E': [
-        CreateConnectionScaled('RGB', unreal.MaterialProperty.MP_EMISSIVE_COLOR, 15),
+        CreateConnectionScaled('RGB', unreal.MaterialProperty.MP_EMISSIVE_COLOR, 15)
     ],
 }
 
