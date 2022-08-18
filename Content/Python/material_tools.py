@@ -136,7 +136,7 @@ def create_material_from_textures(name):
             y_pos += 250
 
     unreal.MaterialEditingLibrary.recompile_material(material)
-    unreal.EditorAssetLibrary.save_asset(material.get_path_name(), True)
+    unreal.EditorAssetLibrary.save_asset(material.get_path_name(), only_if_is_dirty = True)
     
     asset_tools = unreal.AssetToolsHelpers.get_asset_tools()
     asset_tools.open_editor_for_assets([material])
